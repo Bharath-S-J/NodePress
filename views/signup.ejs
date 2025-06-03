@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+    <%- include('./partials/style') %>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Signup page</h1>
+      <form class="user-form" method="POST" action="http://localhost:3000/register">
+        <input type="text" name="name" placeholder="Enter Your name" />
+        <br /><br />
+        <input type="text" name="email" placeholder="Enter Your email" />
+        <br /><br />
+        <input
+          type="password"
+          name="password"
+          placeholder="Enter Your password"
+        />
+        <br /><br />
+        <input type="submit" value="submit" />
+        <% if(message) {%>
+        <p><%= message %></p>
+
+        <%} %>
+      </form>
+      <hr />
+      <a href="/login">Login</a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Blog</title>
+     <%- include('./partials/style') %>
+  </head>
+  <body>
+     <%- include('./partials/topbar') %>
+     <div class="wrapper">
+        <h2>Edit Blog</h2>
+        <form method="POST" class="blog-form" action="http://localhost:3000/updateblog?blogId=<%= blogData._id %>">
+        <input type="text" value="<%= blogData.title %>" name="title" placeholder="Enter blog title hear">
+        <br><br>
+        <textarea name="body" " rows="30" id="" placeholder="Enter blog body hear"><%= blogData.body %>
+        </textarea>
+        <br><br>
+        <input type="submit" value="Edit" id="">
+     </form>
+        <% if(message) {%>
+        <p><%= message %></p>
+
+        <%} %>
+     </div>
+
+    
+  </body>
+</html>
