@@ -73,23 +73,6 @@ Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 📊 Project Rating
-
-> Completeness: 9/10
-> Complexity: 7.5/10
-> Real-World Usefulness: 9/10
-
-A secure, multi-role blogging system ideal for learning full-stack web development with authentication and content management — and ready for real-world enhancement and deployment.
-
----
-
-## 📁 Future Improvements (Optional)
-
-* Role-based admin control
-* Image uploads for blog posts
-* Rich-text editor (e.g., Quill.js or TinyMCE)
-* Pagination and search
-* RESTful API version for SPA/mobile
 
 ```
 
