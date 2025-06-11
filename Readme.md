@@ -1,4 +1,4 @@
-# Blogging Platform
+# NodePress - Blogging Platform
 
 A full-featured blogging application built using Node.js, Express, MongoDB, and EJS. The app allows users to register, log in, create blog posts, and manage their own content securely. Only authenticated users can create, edit, or delete their own posts, ensuring multi-role integrity and secure access control.
 
