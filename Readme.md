@@ -72,9 +72,3 @@ Visit [http://localhost:3000](http://localhost:3000) in your browser.
 * ❌ Unauthorized users attempting to access protected routes are redirected or blocked.
 
 ---
-
-
-```
-
-Let me know if you want a version of this with Docker instructions or deployment steps (e.g., Render, Vercel, or Railway).
-```
